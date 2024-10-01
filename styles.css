@@ -1,150 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,400;1,700&family=Tangerine:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,400;1,700&family=Tangerine:wght@400;700&display=swap");
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    color: #525252;
-    user-select: none;
-    background-color: #ff7f27;
+  font-family: "Raleway", sans-serif;
+  color: #525252;
+  user-select: none;
+  background-color: #ff7f27;
 }
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    height: 100vh;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  flex-direction: column;
 }
 .logo {
-    display: flex;
-    flex-direction: row;
-    margin: 10% auto;
-    width: 80vw;
+  display: flex;
+  flex-direction: row;
+  margin: 5% auto;
+  width: 60vw;
 }
 .metronome {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 250px;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  justify-content: space-between;
 }
 .bpm-display {
-    width: 100%;
-    text-align: center;
-    color: #ffee00;
-    font-weight: bold;
+  width: 100%;
+  text-align: center;
+  color: #ffee00;
+  font-weight: bold;
 }
 .bpm-display .tempo {
-    font-size: 4em;
+  font-size: 4em;
 }
 .tempo-text {
-    font-size: .8em;
-    text-transform: uppercase;
-    text-align: center;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  text-align: center;
 }
 .tempo-settings {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .tempo-settings .adjust-tempo-btn {
-    width: 30px;
-    height: 30px;
-    font-size: 40px;
-    border-radius: 50%;
-    border: 1px solid #ddd;
-    text-align: center;
-    cursor: pointer;
-    background: #fde293;
+  width: 30px;
+  height: 30px;
+  font-size: 40px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  text-align: center;
+  cursor: pointer;
+  background: #fde293;
 }
 .tempo-settings .adjust-tempo-btn:hover {
-   background: #ffee00;
-   color: #fff;
+  background: #ffee00;
+  color: #fff;
 }
 .tempo-settings .decrease-tempo {
-    line-height: 25px;
+  line-height: 25px;
 }
 .tempo-settings .increase-tempo {
-    line-height: 32px;
+  line-height: 32px;
 }
 
-input[type=range] {
-    -webkit-appearance: none;
-    background-color: transparent;
-    width: 70%;
+input[type="range"] {
+  -webkit-appearance: none;
+  background-color: transparent;
+  width: 70%;
 }
-input[type=range]::-webkit-slider-thumb {
-    -webkit-appearance: none;
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
 }
-input[type=range]:focus {
-    outline: none;
+input[type="range"]:focus {
+  outline: none;
 }
-input[type=range]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: #fde293;
-    margin-top: -8px;
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #fde293;
+  margin-top: -8px;
 }
-input[type=range]::-moz-range-thumb {
-    -webkit-appearance: none;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: #fde293;
-    border: none;
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #fde293;
+  border: none;
 }
-input[type=range]::-webkit-slider-runnable-track {
-    width: 100%;
-    height: 1px;
-    background-color: #ddd;
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
 }
-input[type=range]::-moz-range-track {
-    width: 100%;
-    height: 1px;
-    background-color: #ddd;
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
 }
 .start-stop {
-    width: 50px;
-    height: 50px;
-    font-size: 0.7em;
-    text-align: center;
-    background: #ffee00;
-    border-radius: 50%;
-    color: #97959a;
-    line-height: 50px;
-    margin: 0 auto;
-    cursor: pointer;
+  width: 50px;
+  height: 50px;
+  font-size: 0.7em;
+  text-align: center;
+  background: #ffee00;
+  border-radius: 50%;
+  color: #97959a;
+  line-height: 50px;
+  margin: 0 auto;
+  cursor: pointer;
 }
 .start-stop:hover {
-    background: #fde293;
+  background: #fde293;
 }
 .measures {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .measures .stepper {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 1px solid #ddd;
-    text-align: center;
-    margin: 0 5px;
-    cursor: pointer;
-    background: #fde293;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin: 0 5px;
+  cursor: pointer;
+  background: #fde293;
 }
 .measures .stepper:hover {
-    background: #ffee00;
-    color: #fff;
+  background: #ffee00;
+  color: #fff;
 }
 .measures .add-beats {
-    line-height: 22px;
+  line-height: 22px;
 }
 .beats-per-measure-text {
-    text-align: center;
-    font-size: 0.5em;
-    text-transform: uppercase;
+  text-align: center;
+  font-size: 0.5em;
+  text-transform: uppercase;
 }
